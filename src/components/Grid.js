@@ -29,9 +29,9 @@ const Grid = () => {
             <g stroke={grey500}>
                 {largeElements}
                 <circle cx={12} cy={12} r={10} />
-                <rect x={3} y={3} width={18} height={18} rx={1} ry={1} />
-                <rect x={2} y={4} width={20} height={16} rx={1} ry={1} />
-                <rect x={4} y={2} width={16} height={20} rx={1} ry={1} />
+                <rect x={3} y={3} width={18} height={18} rx={2} ry={2} />
+                <rect x={2} y={4} width={20} height={16} rx={2} ry={2} />
+                <rect x={4} y={2} width={16} height={20} rx={2} ry={2} />
                 <rect x={0} y={0} width={24} height={24} />
             </g>
         </g>
